@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    max-width: 1200px;
+    margin: auto;
+}
+.container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin:auto;
+}
+.container nav ul li a{
+    text-decoration: none;
+}
+.container .contact{
+    padding: 7px 36px 7px 26px;
+    background-color:  #f46a35;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+}
+.corporate_cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.flex_left h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212121;
+}
