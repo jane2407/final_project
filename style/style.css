@@ -130,10 +130,10 @@ header {
 }
 
 .learn_more_flex:hover{
-    color:#f46a35; ;
+    color:#f46a35;
 }
 .learn_more_flex:hover svg path{
-    fill: #f46a35;;
+    fill: #f46a35;
 }
 .logotips{
     max-width: 1000px;
@@ -179,6 +179,7 @@ header {
     display:flex;
     justify-content:center;
     padding-top:64px;
+    padding-bottom:72;
 }
 .left_image {
     position: relative;
@@ -277,4 +278,140 @@ header {
     position: absolute;
     top: 240px;
     left: 20px;
+}
+.page_3{
+    max-width: 1200px;
+    margin: auto;
+    justify-content:left;
+    background: #f9f9f9;
+    margin-top:72px;
+}
+.flexible span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.04em;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-left:48px;
+}
+.flexible{
+    padding-top:95px;
+}
+.flexible p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top: 21px;
+    padding-left:48px;
+}
+.flexible a {
+    border: 1px solid #212121;
+    border-radius: 10px;
+    padding: 12px 21px 14px 21px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top:12px;
+    margin-left:48px;
+}
+.create_img{
+    margin-left:48px;
+    padding:40px 0 80px 0;
+}
+.page_4{
+    max-width: 1200px;
+    margin: auto;
+    margin-top:251px;
+}
+.doordash{
+  padding-left:510px;
+}
+.text_doordash {
+    display: flex;
+    justify-content: space-between;
+    padding-top:49px;
+}
+.text_doordash span{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 109%;
+    text-align: center;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding:0 166px 0 166px;
+}
+.page_4 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top:48px;
+}
+.text_doordash a  {
+    background: #edefee;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.page_5 {
+    max-width: 1200px;
+    margin: auto;
+}
+.page_5 h3{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top:252px;
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    padding-top:79px;
+}
+.companies span {
+    display:inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding-top:26px;
+}
+
+.companies span {
+    padding-top: 22px;
+}
+.read_case{
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    text-decoration:none;
+    font-family: 'cera_proregular';
+    display: inline-block;
+    padding-top: 22px;
+}
+
+.read_case:hover{
+    color:#f46a35;
+}
+.read_case:hover svg path{
+    fill: #f46a35;
 }
