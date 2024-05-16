@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../font/cerapro-regular-webfont.eot');
+    src: url('../font/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../font/cerapro-regular-webfont.woff') format('woff'),
+    url('../font/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../font/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -45,4 +58,6 @@
     font-size: 40px;
     line-height: 130%;
     color: #212121;
+    font-family: 'cera_proregular';
+
 }
