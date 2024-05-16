@@ -15,7 +15,7 @@
     padding: 0;
     margin: 0;
 }
-.header {
+header {
     max-width: 1200px;
     margin: auto;
 }
@@ -50,8 +50,9 @@
 .corporate_cards{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
+    padding-top: 20px;
 }
 .flex_left h1{
     font-weight: 400;
@@ -59,5 +60,221 @@
     line-height: 130%;
     color: #212121;
     font-family: 'cera_proregular';
+    padding-bottom:23px;
 
+}
+.flex_left .contact{
+    padding: 13px 32px 13px 32px;
+    background-color:  #f46a35;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    border: 1px solid #f46a35;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+
+}
+.flex_left .contact_2{
+    padding: 13px 21px 13px 22px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #212121;
+}
+.flex_left .contact .contact_2{
+    display:flex;
+
+}
+.text_left{
+    display: flex;
+    flex-direction: column;
+    padding-top:97px;
+}
+.text_left span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    font-family: 'cera_proregular';
+}
+.text_left p{
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    padding-top:9px;
+}
+.learn_more_flex{
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    text-decoration:none;
+    font-family: 'cera_proregular';
+    display: inline-block;
+    padding-top: 9px;
+    padding-bottom:50px;
+}
+
+.learn_more_flex:hover{
+    color:#f46a35; ;
+}
+.learn_more_flex:hover svg path{
+    fill: #f46a35;;
+}
+.logotips{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top:80px;
+}
+
+
+.page_2{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 208px;
+}
+.info_page_2{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.info_page_2 span {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    font-family: 'cera_proregular';
+    color: #212121;
+}
+.info_page_2 p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 168%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top:8px;
+}
+
+.fon_page_2{
+    display:flex;
+    justify-content:center;
+    padding-top:64px;
+}
+.left_image {
+    position: relative;
+
+}
+.left_image span{
+    position:absolute;
+    top:48px;
+    left:147px;
+    color: #fff;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.left_image p{
+    position:absolute;
+    top:98px;
+    left:52px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-family: 'cera_proregular';
+}
+.left_image a{
+    position:absolute;
+    top:168px;
+    left:210px;
+    color: #fff;
+}
+
+.pict_left{
+         position: absolute;
+         top: 240px;
+         left: 20px;
+     }
+
+
+.learn_more{
+    padding: 13px 41px 13px 41px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+    border:  1px solid #fff;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #212121;
+    font-family: 'cera_proregular';
+    padding-top:22px;
+}
+
+.right_image {
+    position: relative;
+
+}
+.right_image span{
+    position:absolute;
+    top:48px;
+    left:147px;
+    color: #212121;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.right_image p{
+    position:absolute;
+    top:98px;
+    left:52px;
+    color: #212121;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-family: 'cera_proregular';
+}
+.right_image a{
+    position:absolute;
+    top:168px;
+    left:210px;
+    color: #212121;
+}
+
+.pict_right{
+    position: absolute;
+    top: 240px;
+    left: 20px;
 }
