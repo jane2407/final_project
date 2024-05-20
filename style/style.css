@@ -1,16 +1,16 @@
 
 @font-face {
-    font-family: 'cera_proregular';
-    src: url('../font/cerapro-regular-webfont.eot');
-    src: url('../font/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/cerapro-regular-webfont.woff2') format('woff2'),
-    url('../font/cerapro-regular-webfont.woff') format('woff'),
-    url('../font/cerapro-regular-webfont.ttf') format('truetype'),
-    url('../font/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-family: 'robotoregular';
+    src: url('../font/roboto-regular-webfont.eot');
+    src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/roboto-regular-webfont.woff2') format('woff2'),
+    url('../font/roboto-regular-webfont.woff') format('woff'),
+    url('../font/roboto-regular-webfont.ttf') format('truetype'),
+    url('../font/roboto-regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -59,7 +59,8 @@ header {
     font-size: 40px;
     line-height: 130%;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
+
     padding-bottom:23px;
 
 }
@@ -107,10 +108,11 @@ header {
     line-height: 125%;
     letter-spacing: 0.02em;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
+
 }
 .text_left p{
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
@@ -123,7 +125,7 @@ header {
     line-height: 150%;
     color: black;
     text-decoration:none;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     display: inline-block;
     padding-top: 9px;
     padding-bottom:50px;
@@ -161,7 +163,7 @@ header {
     line-height: 144%;
     letter-spacing: 0.04em;
     text-align: center;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     color: #212121;
 }
 .info_page_2 p{
@@ -171,7 +173,7 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-top:8px;
 }
 
@@ -190,7 +192,7 @@ header {
     top:48px;
     left:147px;
     color: #fff;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     font-weight: 400;
     font-size: 32px;
     line-height: 125%;
@@ -207,7 +209,7 @@ header {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
 }
 .left_image a{
     position:absolute;
@@ -235,7 +237,7 @@ header {
     font-size: 14px;
     line-height: 157%;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-top:22px;
 }
 
@@ -248,7 +250,7 @@ header {
     top:48px;
     left:147px;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     font-weight: 400;
     font-size: 32px;
     line-height: 125%;
@@ -265,7 +267,7 @@ header {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
 }
 .right_image a{
     position:absolute;
@@ -292,7 +294,7 @@ header {
     line-height: 144%;
     letter-spacing: 0.04em;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-left:48px;
 }
 .flexible{
@@ -304,7 +306,7 @@ header {
     line-height: 160%;
     letter-spacing: 0.02em;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';;
     padding-top: 21px;
     padding-left:48px;
 }
@@ -320,7 +322,7 @@ header {
     font-size: 14px;
     line-height: 157%;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-top:12px;
     margin-left:48px;
 }
@@ -347,7 +349,7 @@ header {
     line-height: 109%;
     text-align: center;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding:0 166px 0 166px;
 }
 .page_4 p{
@@ -357,7 +359,7 @@ header {
     letter-spacing: 0.02em;
     text-align: center;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-top:48px;
 }
 .text_doordash a  {
@@ -378,14 +380,16 @@ header {
     letter-spacing: 0.04em;
     text-align: center;
     color: #212121;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     padding-top:252px;
 }
 .companies{
     display: flex;
     justify-content: space-between;
     padding-top:79px;
+
 }
+
 .companies span {
     display:inline-block;
     font-weight: 400;
@@ -404,7 +408,7 @@ header {
     line-height: 150%;
     color: black;
     text-decoration:none;
-    font-family: 'cera_proregular';
+    font-family: 'robotoregular';
     display: inline-block;
     padding-top: 22px;
 }
@@ -414,4 +418,73 @@ header {
 }
 .read_case:hover svg path{
     fill: #f46a35;
+}
+.companies_2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 81px;
+}
+.companies_2 img{
+    border: 1px solid #212121;
+    border-radius: 4px;
+    padding: 75px 29px 75px 29px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-flex;
+
+}
+.last_page {
+    max-width: 1200px;
+    margin: auto;
+    padding-top:120px;
+    display:flex;
+    justify-content:end;
+    background: #171717;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #bcbdbd;
+    font-family: 'robotoregular';
+    margin-top:100px;
+}
+.last_page .type_1, .type_2, .type_3 {
+    margin-right:154px;
+    text-decoration:none;
+}
+
+.last_page .type_1 ul li,.type_2 ul li,.type_3 ul li{
+    list-style: none;
+}
+.type_1 li:first-child,.type_2 li:first-child, .type_3 li:first-child{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    font-family: 'robotoregular';
+}
+.download{
+    display:flex;
+    justify-content:center;
+    background: #171717;
+    max-width: 1200px;
+    margin: auto;
+    padding-top:37px;
+    padding-bottom: 121px;
+
+}
+.download a{
+    padding-right:22px;
+}
+.text span{
+    background: #171717;
+    display:flex;
+    color: #bcbdbd;
+    max-width: 1200px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+
 }
