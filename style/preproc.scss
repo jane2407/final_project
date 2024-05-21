@@ -25,7 +25,7 @@ header {
 .container{
   padding-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
  nav{
   ul{
@@ -55,7 +55,7 @@ header {
 .corporate_cards{
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 20px;
 .flex_left{
@@ -133,17 +133,19 @@ span{
   fill: $main_color;
 }
 
-.logotips{
-  max-width: 1000px;
+.logotips owl-carousel{
+  max-width: 1200px;
   margin: auto;
-  display: flex;
+  //display: flex;
   justify-content: space-between;
   padding-top:80px;
+  padding-right:48px;
+  display:inline-block;
 }
 
 
 .page_2{
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 208px;
 .info_page_2{
@@ -391,7 +393,7 @@ span{
   justify-content: center;
   display: flex;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .last_page{
