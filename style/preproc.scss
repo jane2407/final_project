@@ -1,8 +1,10 @@
-$page-font: 'robotoregular';
-$font-color: #212121;
+//@import "media.css";
+
+$main_font: 'robotoregular';
+$main_color: #212121;
 
 @font-face {
-  font-family: $page-font;
+  font-family: $main-font;
   src: url('../font/roboto-regular-webfont.eot');
   src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
   url('../font/roboto-regular-webfont.woff2') format('woff2'),
@@ -23,10 +25,10 @@ header {
   margin: auto;
 }
 .container{
-  font-family: $page-font;
+  font-family: $main_font;
   padding-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
   nav {
     ul {
@@ -56,10 +58,12 @@ header {
     display: inline-flex;
   }
 }
+
+
 .corporate_cards{
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 20px;
 }
@@ -68,8 +72,8 @@ header {
     font-weight: 400;
     font-size: 40px;
     line-height: 130%;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family:$main_font;
     padding-bottom:23px;
   }
   .contact{
@@ -101,7 +105,7 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
-    color: $font-color;
+    color: $main-color;
   }
 }
 .text_left{
@@ -113,16 +117,16 @@ header {
     font-size: 16px;
     line-height: 125%;
     letter-spacing: 0.02em;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
   }
   p{
-    font-family: $page-font;
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
     letter-spacing: 0.02em;
-    color: $font-color;
+    color: $main-color;
     padding-top:9px;
   }
 }
@@ -131,7 +135,7 @@ header {
   line-height: 150%;
   color: black;
   text-decoration:none;
-  font-family: $page-font;
+  font-family: $main_font;
   display: inline-block;
   padding-top: 9px;
   padding-bottom:50px;
@@ -143,16 +147,15 @@ header {
   }
 }
 .logotips{
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding-top:80px;
-  margin-right: 48px;
 }
 
 .page_2{
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 208px;
 }
@@ -166,8 +169,8 @@ header {
     line-height: 144%;
     letter-spacing: 0.04em;
     text-align: center;
-    font-family: $page-font;
-    color: $font-color;
+    font-family: $main_font;
+    color: $main-color;
   }
   p{
     font-weight: 400;
@@ -175,8 +178,8 @@ header {
     line-height: 168%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main_font;
     padding-top:8px;
   }
 }
@@ -194,7 +197,7 @@ header {
     top:48px;
     left:147px;
     color: #fff;
-    font-family: $page-font;
+    font-family: $main_font;
     font-weight: 400;
     font-size: 32px;
     line-height: 125%;
@@ -211,7 +214,7 @@ header {
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    font-family: $page-font;
+    font-family: $main-font;
   }
   a{
     position:absolute;
@@ -237,8 +240,8 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 157%;
-  color: $font-color;
-  font-family: $page-font;
+  color: $main-color;
+  font-family: $main_font;
   padding-top:22px;
 }
 
@@ -248,8 +251,8 @@ header {
     position:absolute;
     top:48px;
     left:147px;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main_font;
     font-weight: 400;
     font-size: 32px;
     line-height: 125%;
@@ -260,19 +263,19 @@ header {
     position:absolute;
     top:98px;
     left:52px;
-    color: $font-color;
+    color: $main-color;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
-    font-family: $page-font;
+    font-family: $main_font;
   }
   a{
     position:absolute;
     top:168px;
     left:210px;
-    color: $font-color;
+    color: $main-color;
   }
 }
 .pict_right{
@@ -291,11 +294,11 @@ header {
   padding-top:95px;
   span{
     font-weight: 400;
-    font-size: 36px;
     line-height: 144%;
+    font-size: 36px;
     letter-spacing: 0.04em;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding-left:48px;
   }
   p {
@@ -303,13 +306,13 @@ header {
     font-size: 20px;
     line-height: 160%;
     letter-spacing: 0.02em;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding-top: 21px;
     padding-left:48px;
   }
   a {
-    border: 1px solid $font-color;
+    border: 1px solid $main-color;
     border-radius: 10px;
     padding: 12px 21px 14px 21px;
     text-decoration: none;
@@ -319,8 +322,8 @@ header {
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding-top:12px;
     margin-left:48px;
   }
@@ -339,13 +342,14 @@ header {
     line-height: 125%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding-top:48px;
   }
 }
 .doordash{
   padding-left:510px;
+  animation: example 4s infinite;
 }
 .text_doordash {
   display: flex;
@@ -356,8 +360,8 @@ header {
     font-size: 22px;
     line-height: 109%;
     text-align: center;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding:0 166px 0 166px;
   }
   a  {
@@ -366,6 +370,13 @@ header {
     display: flex;
     margin: auto;
   }
+}
+
+@keyframes example {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.2)}
+  70% {transform: rotate(30deg)}
+  100% {transform: skew(20deg, 10deg)}
 }
 
 .page_5 {
@@ -377,8 +388,8 @@ header {
     line-height: 130%;
     letter-spacing: 0.04em;
     text-align: center;
-    color: $font-color;
-    font-family: $page-font;
+    color: $main-color;
+    font-family: $main-font;
     padding-top:252px;
   }
 }
@@ -396,10 +407,10 @@ header {
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0.02em;
-    color: $font-color;
+    color: $main-color;
     padding-top:26px;
     padding-top:22px;
-    font-family: $page-font;
+    font-family: $main-font;
   }
 }
 .read_case{
@@ -407,7 +418,7 @@ header {
   line-height: 150%;
   color: black;
   text-decoration:none;
-  font-family: $page-font;
+  font-family: $main-font;
   display: inline-block;
   padding-top: 22px;
   &:hover{
@@ -418,74 +429,154 @@ header {
   }
 }
 
-.companies_2{
+.companies_2 {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 14px;
+    margin: 0 39px 0 40px;
+    li {
+      border: 1px solid #e5e5e5;
+      justify-content: center;
+      display: flex;
+      width: 275px;
+      height: 200px;
+      align-items: center;
+    }
+  }
+}
+
+
+.page_6{
   display: flex;
   justify-content: space-between;
-  padding-top: 81px;
-  img{
-    border: 1px solid $font-color;
-    border-radius: 4px;
-    //padding: 75px 29px 75px 29px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top:161px;
+  background: #f9f9f9;
+  .text_6 {
+    padding-left: 48px;
+    padding-top:110px;
+    p {
+      font-size: 40px;
+      font-weight: 400;
+      color: $main_color;
+      font-family: $main-font;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+    }
+      span {
+        font-size: 20px;
+        color:$main_color;
+        font-weight: 400;
+        font-family: $main-font;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+        padding-right:165px;
+      }
+
+    .contact{
+      padding: 13px 21px 13px 22px;
+      background-color:  #f46a35;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      border-radius: 6px;
+      color: #fff;
+      text-align: center;
+      box-sizing:border-box;
+      display: inline-flex;
+    .contact_2{
+      display:flex;
+    }
+  }
+  .contact_2{
+    padding: 13px 21px 13px 22px;
     text-decoration: none;
     text-align: center;
     box-sizing:border-box;
     display: inline-flex;
-
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: $main-color;
+   }
   }
 }
+
 .last_page {
   max-width: 1200px;
   margin: auto;
   padding-top: 120px;
-  display: flex;
-  justify-content: space-between;;
   background: #171717;
   font-weight: 400;
   font-size: 14px;
   line-height: 157%;
   color: #bcbdbd;
-  font-family: $page-font;
-  margin-top: 100px;
-  padding-left: 48px;
-}
-  .type_1, .type_2, .type_3 {
-    margin-right:154px;
-    text-decoration:none;
-    ul {
-      li {
-        list-style: none;
+  font-family: $main-font;
+.menu_last{
+  display: flex;
+  justify-content: space-between;
+  a{
+    padding-left:50px;
+  }
+  ul{
+    &:last-child{
+      padding-right:50px;
+    }
+    li{
+      list-style: none;
+      &:first-child {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        font-family: $main-font;
       }
     }
-    li:first-child{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 150%;
-      letter-spacing: 0.02em;
-      font-family: $page-font;
+  }
+}
+
+  .download {
+    display: flex;
+    justify-content: center;
+    background: #171717;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 97px;
+    padding-bottom: 121px;
+
+    a {
+      padding-right: 22px;
+      text-decoration: none;
+
+      &:last-child {
+        padding-right: 360px;
+      }
+    }
+
+    .text {
+      padding-left: 50px;
+      span {
+        background: black;
+        color: #bcbdbd;
+        max-width: 1200px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        letter-spacing: 0.02em;
+      }
     }
   }
-}
-.download{
-  display:flex;
-  justify-content:center;
-  background: #171717;
-  max-width: 1200px;
-  margin: auto;
-  padding-top:37px;
-  padding-bottom: 121px;
-  .social{
-  a {
-    padding-right:22px;
-  }
-}
-.text span{
-  background: #171717;
-  display:flex;
-  color: #bcbdbd;
-  max-width: 1200px;
-  margin: auto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 133%;
-  letter-spacing: 0.02em;
-}
+ }
+
+
+
+
+
+

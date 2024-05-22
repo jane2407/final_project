@@ -16,7 +16,7 @@ header {
   font-family: 'robotoregular';
   padding-top: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; }
   .container nav ul li {
     display: inline-block;
@@ -42,7 +42,7 @@ header {
 .corporate_cards {
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 20px; }
 
@@ -117,16 +117,14 @@ header {
       fill: #f46a35; }
 
 .logotips {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
-  padding-top: 80px;
   display: flex;
-  justify-content: space-between;}
-  .logotips .img {
-    margin-right: 48px; }
+  justify-content: space-between;
+  padding-top: 80px; }
 
 .page_2 {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 208px; }
 
@@ -254,8 +252,8 @@ header {
   padding-top: 95px; }
   .flexible span {
     font-weight: 400;
-    font-size: 36px;
     line-height: 144%;
+    font-size: 36px;
     letter-spacing: 0.04em;
     color: #212121;
     font-family: 'robotoregular';
@@ -304,7 +302,8 @@ header {
     padding-top: 48px; }
 
 .doordash {
-  padding-left: 510px; }
+  padding-left: 510px;
+  animation: example 4s infinite; }
 
 .text_doordash {
   display: flex;
@@ -324,6 +323,15 @@ header {
     display: flex;
     margin: auto; }
 
+@keyframes example {
+   0% {
+    transform: scale(1); }
+   50% {
+    transform: scale(1.2); }
+   70% {
+    transform: rotate(30deg); }
+   100% {
+    transform: skew(20deg, 10deg); } }
 .page_5 {
   max-width: 1200px;
   margin: auto; }
@@ -341,6 +349,9 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 79px; }
+  .companies .owl-item {
+    padding-left: 32px;
+    padding-right: 32px; }
   .companies span {
     display: inline-block;
     font-weight: 400;
@@ -349,7 +360,8 @@ header {
     letter-spacing: 0.02em;
     color: #212121;
     padding-top: 26px;
-    padding-top: 22px; }
+    padding-top: 22px;
+    font-family: 'robotoregular'; }
 
 .read_case {
   font-size: 16px;
@@ -364,61 +376,118 @@ header {
     .read_case:hover svg path {
       fill: #f46a35; }
 
-.companies_2 {
+.companies_2 ul {
   display: flex;
   justify-content: space-between;
-  padding-top: 81px; }
-  .companies_2 img {
-    border: 1px solid #212121;
-    border-radius: 4px;
-    text-decoration: none;
-    text-align: center;
-    box-sizing: border-box;
-    display: inline-flex; }
+  padding-right: 14px;
+  margin: 0 39px 0 40px; }
+  .companies_2 ul li {
+    border: 1px solid #e5e5e5;
+    justify-content: center;
+    display: flex;
+    width: 275px;
+    height: 200px;
+    align-items: center; }
+
+.page_6 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 161px;
+  background: #f9f9f9; }
+  .page_6 .text_6 {
+    padding-left: 48px;
+    padding-top: 110px; }
+    .page_6 .text_6 p {
+      font-size: 40px;
+      font-weight: 400;
+      color: #212121;
+      font-family: 'robotoregular';
+      line-height: 130%;
+      letter-spacing: 0.04em; }
+    .page_6 .text_6 span {
+      font-size: 20px;
+      color: #212121;
+      font-weight: 400;
+      font-family: 'robotoregular';
+      line-height: 160%;
+      letter-spacing: 0.02em;
+      padding-right: 165px; }
+    .page_6 .text_6 .contact {
+      padding: 13px 21px 13px 22px;
+      background-color: #f46a35;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      border-radius: 6px;
+      color: #fff;
+      text-align: center;
+      box-sizing: border-box;
+      display: inline-flex; }
+      .page_6 .text_6 .contact .contact_2 {
+        display: flex; }
+    .page_6 .text_6 .contact_2 {
+      padding: 13px 21px 13px 22px;
+      text-decoration: none;
+      text-align: center;
+      box-sizing: border-box;
+      display: inline-flex;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      background: #fff;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 157%;
+      color: #212121; }
 
 .last_page {
   max-width: 1200px;
   margin: auto;
   padding-top: 120px;
-  display: flex;
-  justify-content: end;
   background: #171717;
   font-weight: 400;
   font-size: 14px;
   line-height: 157%;
   color: #bcbdbd;
-  font-family: 'robotoregular';
-  margin-top: 100px; }
-  .last_page .type_1, .last_page .type_2, .last_page .type_3 {
-    margin-right: 154px;
-    text-decoration: none; }
-    .last_page .type_1 ul li, .last_page .type_2 ul li, .last_page .type_3 ul li {
+  font-family: 'robotoregular'; }
+  .last_page .menu_last {
+    display: flex;
+    justify-content: space-between; }
+    .last_page .menu_last a {
+      padding-left: 50px; }
+    .last_page .menu_last ul:last-child {
+      padding-right: 50px; }
+    .last_page .menu_last ul li {
       list-style: none; }
-    .last_page .type_1 li:first-child, .last_page .type_2 li:first-child, .last_page .type_3 li:first-child {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 150%;
-      letter-spacing: 0.02em;
-      font-family: 'robotoregular'; }
-
-.download {
-  display: flex;
-  justify-content: center;
-  background: #171717;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 37px;
-  padding-bottom: 121px; }
-  .download a {
-    padding-right: 22px; }
-
-.text span {
-  background: #171717;
-  display: flex;
-  color: #bcbdbd;
-  max-width: 1200px;
-  margin: auto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 133%;
-  letter-spacing: 0.02em; }
+      .last_page .menu_last ul li:first-child {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        font-family: 'robotoregular'; }
+  .last_page .download {
+    display: flex;
+    justify-content: center;
+    background: #171717;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 97px;
+    padding-bottom: 121px; }
+    .last_page .download a {
+      padding-right: 22px;
+      text-decoration: none; }
+      .last_page .download a:last-child {
+        padding-right: 360px; }
+    .last_page .download .text {
+      padding-left: 50px; }
+      .last_page .download .text span {
+        background: black;
+        color: #bcbdbd;
+        max-width: 1200px;
+        margin: auto;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        letter-spacing: 0.02em; }

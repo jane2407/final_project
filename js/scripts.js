@@ -1,6 +1,6 @@
 $('.owl-carousel').owlCarousel({
     autoplay:true,
-    autoplayTimeout: 10000,
+    autoplayTimeout: 1000,
     loop:true,
     margin:64,
     responsive: {
@@ -8,7 +8,7 @@ $('.owl-carousel').owlCarousel({
             items: 1
         },
 
-        1100: {
+        1200: {
             items: 3
         }
     }
