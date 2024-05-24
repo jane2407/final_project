@@ -481,7 +481,7 @@ header {
       .last_page .download a:last-child {
         padding-right: 360px; }
     .last_page .download .text {
-      padding-left: 50px; }
+      padding: 50px; }
       .last_page .download .text span {
         background: black;
         color: #bcbdbd;
